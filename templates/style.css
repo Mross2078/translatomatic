@@ -1,0 +1,27 @@
+body {	
+	background-image: url("venstar_themes1_2.jpg");
+	background-size: 740px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin-top: 150px;
+}
+h1 {
+	color: #ffffff;
+	text-shadow: 2px 2px #000000;
+	font-weight: bold;
+	font-family: "Verdana", sans-serif;
+	font-size: 40px;
+}
+form {
+	color:#ffffff;
+	text-shadow: 2px 2px #000000;
+	font-family: "Verdana", sans-serif;\
+
+}
+h2 {
+	margin-top: 10px;
+}
+.message.pos_top {
+	position: relative;
+	top: 2px;
+}
