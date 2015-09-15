@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
+	</link>
+	<title>Dank Memes Can Melt Steel Beams</title>
+	<script src="https://cloud.github.com/downloads/wycats/handlebars.js/handlebars-1.0.0.beta.6.js">
+	</script>
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js">
+	</script>
+	<script  src="./dynamic.js">
+	</script>
+	
+	
+</head>
+<body>
+	
+	<h1 style="text-align:center" title="ayy lmao">The Translatomatic</h1>
+	<div style="text-align:center">
+		<form id='myform' method="POST">
+		Select a language
+			<select id="Lan" onchange="selectLanguage" name="to">
+				<option value="fra">French</option>
+				<option value="spa">Spanish</option>
+				<option value="ger">German</option>
+				<option value="ita">Italian</option>
+				<option value="por">Portuguese</option>
+				<option value="tur">Turkish</option>
+				<option value="chi">Chinese</option>
+				<option value="jap">Japanese</option>
+			</select>
+			<p></p>	
+			What would you like to translate?
+			<p></p>
+			<textarea rows="2" cols="40" id="text" name="text"></textarea>
+			<input id="button" type="button" title='Paul Blart: Mall Cop'  value="Translate">
+
+		<!--dynamic response to input text-->
+		
+			
+<!--the translation will be rendered inside of this div-->
+			<div id="result">
+				<h2 style="text-align:center" title="Bernie Sanders">Your Translated message is:
+				</h2>
+					<div class="message" style="text-align:center">
+			
+						<textarea type="text" id="textOutput" rows="2" cols="40" readonly></textarea>
+
+					</div>
+			</div>
+		</form>
+
+</body>
+</html>
+
