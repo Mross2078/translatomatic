@@ -8,11 +8,11 @@ This project requires Node.js v0.12.7 or newer. Download is available at  nodejs
 
 ###Other Requirements:
 using npm, install:
-  $npm install hapi
-  $npm install handlebars
-  $npm install path
-  $npm install http
-  $npm install request
+  $npm install hapi  
+  $npm install handlebars    
+  $npm install path  
+  $npm install http   
+  $npm install request   
 
 
 
