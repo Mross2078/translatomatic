@@ -7,12 +7,12 @@ This file uses a hapi.js server as well as the SDL api to display a page that ac
 This project requires Node.js v0.12.7 or newer. Download is available at  nodejs.org
 
 ###Other Requirements:
-using npm, install:
-  $npm install hapi  
-  $npm install handlebars    
-  $npm install path  
-  $npm install http   
-  $npm install request   
+using npm, install:   
+ ` $npm install hapi  `  
+  `$npm install handlebars`         
+  `$npm install path`     
+  `$npm install http`       
+  `$npm install request`      
 
 
 
