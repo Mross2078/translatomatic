@@ -15,5 +15,6 @@ using npm, install:
   `$npm install request`      
 
 
-
+###Note:  
+The exact picture used in the background can change, or no picture can be used. The picture originally used is currently not available online.
 
