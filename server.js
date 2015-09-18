@@ -47,9 +47,9 @@ server.route([
 	},
 	{
 	method:"GET",
-	path: "/venstar_themes1_2.jpg",
+	path: "/[insert/picture/file/here]",
 	handler: function(request, reply) {
-		reply.file("./templates/venstar_themes1_2.jpg");
+		reply.file("./[insert/picture/file/here]");
 	}	
 	}
 ]);
